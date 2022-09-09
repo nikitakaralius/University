@@ -7,3 +7,10 @@
 * [Алгоритмизация и Программирование](./AAP/)
 * [Цифровая Грамотность](./DigitalLiteracy/)
 * [Физика](./Physics/)
+
+## Программы, которые я использую
+* **IDE**: [JetBrains Rider](https://www.jetbrains.com/rider/)
+* **Markdown Editor**: [Typora](https://typora.io)
+* **Code Editor**: [VS Code](https://code.visualstudio.com)
+* **Task Management**: [Notion](http://notion.so)
+* **Terminal**: [iTerm2](https://iterm2.com) + [fish](https://fishshell.com)
