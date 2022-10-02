@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T17:32:14.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="GJBeZqSnrU4mFIrQelUr" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T17:35:41.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="pOJ5Don13Fil0rT1ZLFq" version="20.3.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Generate3By3Square">
     <mxGraphModel dx="901" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,58 @@
         </mxCell>
         <mxCell id="fJoIIDvibCOADlClW87m-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Generate 3 * 3 Magic Square&lt;/b&gt;&lt;br&gt;&lt;br&gt;n - целое число, длина квадрата&lt;br&gt;&lt;br&gt;matrix[n, n] - двумерный массив&lt;br&gt;n * n элементов. Индексация с 0.&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="20" width="50" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gu6YXnRPc8iDl0dwYSYp" name="MagicNumber">
+    <mxGraphModel dx="788" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;curved=1;" edge="1" parent="1" source="fI6J_YdKrSaPr9r_NMQk-3" target="fI6J_YdKrSaPr9r_NMQk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="fI6J_YdKrSaPr9r_NMQk-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" target="fI6J_YdKrSaPr9r_NMQk-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="fI6J_YdKrSaPr9r_NMQk-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="fI6J_YdKrSaPr9r_NMQk-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-14" value="End" style="ellipse;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="fI6J_YdKrSaPr9r_NMQk-16" target="fI6J_YdKrSaPr9r_NMQk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-16" value="n * (n * n + 1) / 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="220" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;MagicNumber&lt;/b&gt;&lt;br&gt;&lt;br&gt;n - целое число, длина квадрата.&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=14;endArrow=classic;endFill=1;" edge="1" parent="1" source="fI6J_YdKrSaPr9r_NMQk-18" target="fI6J_YdKrSaPr9r_NMQk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fI6J_YdKrSaPr9r_NMQk-18" value="n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;glass=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="275" y="130" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
