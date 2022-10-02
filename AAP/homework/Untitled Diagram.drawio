@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T18:04:31.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="6i7Czhog1l0NYDUZIESz" version="20.3.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-02T18:12:55.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="_POyjx08kiQXkaTcEpuk" version="20.3.2" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Generate3By3Square">
     <mxGraphModel dx="901" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,7 +155,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qBv5S2QZKWCrZTOTjdJo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="ItI3R51VdSs9SHZ6Tsry-3" target="qBv5S2QZKWCrZTOTjdJo-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="540" />
+              <mxPoint x="570" y="910" />
+              <mxPoint x="400" y="910" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ItI3R51VdSs9SHZ6Tsry-3" value="corner &amp;lt; Length(corners)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;sketch=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="275" y="490" width="250" height="100" as="geometry" />
@@ -181,8 +187,15 @@
         <mxCell id="qBv5S2QZKWCrZTOTjdJo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="qBv5S2QZKWCrZTOTjdJo-3" target="qBv5S2QZKWCrZTOTjdJo-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qBv5S2QZKWCrZTOTjdJo-3" value="matrix[i, j] &amp;lt;-&lt;br&gt;&amp;nbsp;NextDigitWithStepOf2(previousI, previousJ)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="qBv5S2QZKWCrZTOTjdJo-3" value="matrix[i, j] &amp;lt;-&lt;br&gt;&amp;nbsp;NextCornerDigitWithStepOf2(&lt;br&gt;previousI, previousJ)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="50" y="760" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="55vvH060C_LuIFA40bQV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="qBv5S2QZKWCrZTOTjdJo-4" target="ItI3R51VdSs9SHZ6Tsry-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qBv5S2QZKWCrZTOTjdJo-4" value="corner &amp;lt;- corner + 1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="50" y="850" width="250" height="60" as="geometry" />
@@ -212,14 +225,20 @@
         <mxCell id="6X_qdEfU3zWaUCsr2Je0-4" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="200" y="510" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6X_qdEfU3zWaUCsr2Je0-5" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="400" y="610" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="6X_qdEfU3zWaUCsr2Je0-6" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="400" y="1045" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6X_qdEfU3zWaUCsr2Je0-7" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="200" y="960" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DhHDbQVFwEcbw81nsxFy-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Length - целое число,&lt;br&gt;длина массива&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=0;sketch=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="55" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DhHDbQVFwEcbw81nsxFy-2" value="corners - массив кортежей,&amp;nbsp;&lt;br&gt;координаты углов квадрата" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=0;sketch=1;strokeColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="290" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6X_qdEfU3zWaUCsr2Je0-5" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="525" y="510" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -316,6 +335,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VFAPI2fVe3bH3hWD5w9m-9" value="n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;glass=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="275" y="130" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1Y5_5omOPH7SKhFvcRB4" name="NextDigitWithStepOf2">
+    <mxGraphModel dx="946" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;curved=1;" edge="1" parent="1" source="RIxXQpZnqBSH4j8Tt5_J-3" target="RIxXQpZnqBSH4j8Tt5_J-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="RIxXQpZnqBSH4j8Tt5_J-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="129.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-4" value="End" style="ellipse;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-5" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;" edge="1" parent="1" source="RIxXQpZnqBSH4j8Tt5_J-6" target="RIxXQpZnqBSH4j8Tt5_J-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-6" value="matrix[previousI, previousJ] &amp;nbsp;% 8 + 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="220" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;NextCornerDigitWithStepOf2&lt;/b&gt;&lt;br&gt;&lt;br&gt;matrix[,] - двумерный массив&lt;br&gt;&lt;br&gt;previousI, previousJ - целые числа,&lt;br&gt;координаты углов квадрата&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=14;endArrow=classic;endFill=1;" edge="1" parent="1" source="RIxXQpZnqBSH4j8Tt5_J-9" target="RIxXQpZnqBSH4j8Tt5_J-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIxXQpZnqBSH4j8Tt5_J-9" value="matrix[,]&lt;br&gt;previousI, previousJ" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;glass=0;sketch=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="275" y="130" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
