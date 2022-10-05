@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1280fbad_002D22ee_002D4f94_002D8af4_002Dd34e8e81f0ab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SidesShouldBeInCorrectBlock #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::61C72E5A-7050-4A0B-93B0-23DB4E16BCB4::net6.0::TrainTests.RailcarSeatTests.SidesShouldBeInCorrectBlock&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38d94020_002D6ee7_002D4562_002D9404_002D85c322b38aee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SeatsShouldBeInCorrectBlock" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::61C72E5A-7050-4A0B-93B0-23DB4E16BCB4::net6.0::TrainTests.RailcarSeatTests.SidesShouldBeInCorrectBlock&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d60e1f32_002Dd597_002D4e39_002Da47e_002Dc2b743decd3c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SidesShouldBeInCorrectBlock" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::61C72E5A-7050-4A0B-93B0-23DB4E16BCB4::net6.0::TrainTests.RailcarSeatTests.SidesShouldBeInCorrectBlock&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Usings/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
