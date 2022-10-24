@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checksum", "Checksum\Checks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chart", "Chart\Chart.csproj", "{12D1EA66-1BBC-405F-A952-ABA7A2E62F0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxes", "Boxes\Boxes.csproj", "{EF25546B-FEA0-4EC3-9014-5CDECF74C315}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{12D1EA66-1BBC-405F-A952-ABA7A2E62F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D1EA66-1BBC-405F-A952-ABA7A2E62F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D1EA66-1BBC-405F-A952-ABA7A2E62F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF25546B-FEA0-4EC3-9014-5CDECF74C315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF25546B-FEA0-4EC3-9014-5CDECF74C315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF25546B-FEA0-4EC3-9014-5CDECF74C315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF25546B-FEA0-4EC3-9014-5CDECF74C315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
