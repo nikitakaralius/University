@@ -16,7 +16,7 @@ Box container = new(
     depth: containerSizes[2]);
 
 WriteLine(box.FistIn(container)
-              ? "Yes, you can put this box into container"
+              ? "Yes, you can put this box in the container"
               : "No, the box is too large to be in the container");
 
 internal sealed class Box
