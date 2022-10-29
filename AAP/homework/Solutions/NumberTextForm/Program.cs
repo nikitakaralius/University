@@ -14,7 +14,7 @@ Console.WriteLine(TextRepresentation(number));
 
 string TextRepresentation(int number)
 {
-    return number switch
+    string text = number switch
     {
         10 => "десять",
         11 => "одиннадцать",
@@ -28,6 +28,8 @@ string TextRepresentation(int number)
         19 => "девятнадцать",
         _  => $"{DozensRepresentation(number)} {UnitsRepresentation(number)}"
     };
+
+    return text.Trim();
 }
 
 string UnitsRepresentation(int number)
@@ -52,6 +54,7 @@ string DozensRepresentation(int number)
 {
     return (number / 10) switch
     {
+        0 => "",
         1 => "надцать",
         2 => "двадцать",
         3 => "тридцать",
