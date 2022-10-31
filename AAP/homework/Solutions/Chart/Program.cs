@@ -2,7 +2,7 @@
 
 double x = Console.ReadLine()!.AsDouble();
 double result = SecondVariant(x);
-Console.WriteLine(result);
+Console.WriteLine(Math.Round(result, 3));
 
 double FirstVariant(double x)
 {
