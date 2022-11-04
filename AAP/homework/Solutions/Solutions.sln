@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelOrConsonant", "VowelOr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberTextForm", "NumberTextForm\NumberTextForm.csproj", "{02B8FB8A-3E37-435D-91DF-A1057EC4EA11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigonometry", "Trigonometry\Trigonometry.csproj", "{645A3907-53BE-41A0-8842-1CA706B5FFCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{02B8FB8A-3E37-435D-91DF-A1057EC4EA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B8FB8A-3E37-435D-91DF-A1057EC4EA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B8FB8A-3E37-435D-91DF-A1057EC4EA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645A3907-53BE-41A0-8842-1CA706B5FFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645A3907-53BE-41A0-8842-1CA706B5FFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645A3907-53BE-41A0-8842-1CA706B5FFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645A3907-53BE-41A0-8842-1CA706B5FFCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
