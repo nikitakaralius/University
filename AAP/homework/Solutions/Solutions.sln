@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestStudentGroup", "Larg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoopPractice", "WhileLoopPractice\WhileLoopPractice.csproj", "{EABB3152-078F-4408-9354-AD565C2BD773}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticAverage", "ArithmeticAverage\ArithmeticAverage.csproj", "{18BB662A-98C0-48C2-9AED-FAD1DD67ABC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{EABB3152-078F-4408-9354-AD565C2BD773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EABB3152-078F-4408-9354-AD565C2BD773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EABB3152-078F-4408-9354-AD565C2BD773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BB662A-98C0-48C2-9AED-FAD1DD67ABC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BB662A-98C0-48C2-9AED-FAD1DD67ABC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BB662A-98C0-48C2-9AED-FAD1DD67ABC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BB662A-98C0-48C2-9AED-FAD1DD67ABC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
