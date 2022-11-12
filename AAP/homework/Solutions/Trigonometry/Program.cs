@@ -35,6 +35,8 @@ internal static class TaylorSeriesMath
 
         while (GuaranteeIterations() || Math.Abs(seriesMember) >= epsilon)
         {
+            if (double.IsInfinity(seriesMember)) break;
+
             result += seriesMember;
 
             int nextPower = power + step;
