@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigonometry", "Trigonometr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestStudentGroup", "LargestStudentGroup\LargestStudentGroup.csproj", "{A4EA1BE8-4824-4E64-ACE8-7DEB3C7103D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoopPractice", "WhileLoopPractice\WhileLoopPractice.csproj", "{EABB3152-078F-4408-9354-AD565C2BD773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{A4EA1BE8-4824-4E64-ACE8-7DEB3C7103D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4EA1BE8-4824-4E64-ACE8-7DEB3C7103D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4EA1BE8-4824-4E64-ACE8-7DEB3C7103D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABB3152-078F-4408-9354-AD565C2BD773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABB3152-078F-4408-9354-AD565C2BD773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABB3152-078F-4408-9354-AD565C2BD773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABB3152-078F-4408-9354-AD565C2BD773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
