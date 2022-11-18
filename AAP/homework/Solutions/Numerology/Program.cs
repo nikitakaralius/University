@@ -9,6 +9,7 @@ internal class Program
         Console.WriteLine(answer);
         Console.ReadKey();
     }
+
     private static int Numerology(int date)
     {
         int digitsSum = DigitsSum(date);
@@ -22,6 +23,7 @@ internal class Program
     private static int DigitsSum(int value)
     {
         int sum = 0;
+
         while (value > 0)
         {
             sum += value % 10;
