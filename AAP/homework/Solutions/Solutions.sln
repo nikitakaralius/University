@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticAverage", "Arithm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerology", "Numerology\Numerology.csproj", "{86FA6555-5E2C-4538-92BE-49F57D03E530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGraphics", "ConsoleGraphics\ConsoleGraphics.csproj", "{0681065A-3637-4E87-89FB-5C25D279C9FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{86FA6555-5E2C-4538-92BE-49F57D03E530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FA6555-5E2C-4538-92BE-49F57D03E530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86FA6555-5E2C-4538-92BE-49F57D03E530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
