@@ -13,6 +13,8 @@ internal class Program
         int treeHeight = int.Parse(Console.ReadLine()!);
 
         DrawForest(rowsCount, columnsCount, treeHeight);
+
+        Console.ReadKey();
     }
 
     private static void DrawForest(int rowsCount, int columnsCount, int treeHeight)
