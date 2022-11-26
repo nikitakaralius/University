@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerology", "Numerology\Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGraphics", "ConsoleGraphics\ConsoleGraphics.csproj", "{0681065A-3637-4E87-89FB-5C25D279C9FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segments", "Segments\Segments.csproj", "{E4BE78C5-D6CC-43FE-8484-2D39B848E390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0681065A-3637-4E87-89FB-5C25D279C9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BE78C5-D6CC-43FE-8484-2D39B848E390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BE78C5-D6CC-43FE-8484-2D39B848E390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BE78C5-D6CC-43FE-8484-2D39B848E390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BE78C5-D6CC-43FE-8484-2D39B848E390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
