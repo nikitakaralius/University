@@ -305,12 +305,20 @@ internal sealed class GameSettings
         AimingDelay = 30
     };
 
-    public static GameSettings Create(int targetRadius, int numberOfSections, int sectionWidth, int delay)
+    /// <summary>
+    /// Создает валидный объект игровых настроек.
+    /// </summary>
+    /// <param name="targetRadius">Радиус мишени.</param>
+    /// <param name="numberOfSections">Количество секций мишени.</param>
+    /// <param name="sectionWidth">Ширина секции мишени.</param>
+    /// <param name="aimingDelay">Задержка при прицеливании.</param>
+    /// <returns>Игровые настройки.</returns>
+    public static GameSettings Create(int targetRadius, int numberOfSections, int sectionWidth, int aimingDelay)
     {
         ThrowIfOutOfRange(targetRadius, 1, 50);
         ThrowIfOutOfRange(numberOfSections, 1, 50);
         ThrowIfOutOfRange(sectionWidth, 1, 10);
-        ThrowIfOutOfRange(delay, 10, 300);
+        ThrowIfOutOfRange(aimingDelay, 10, 300);
         ThrowIfOutOfRange(numberOfSections * sectionWidth, 1, targetRadius);
 
         return new GameSettings
@@ -318,10 +326,17 @@ internal sealed class GameSettings
             TargetRadius = targetRadius,
             NumberOfSections = numberOfSections,
             SectionWidth = sectionWidth,
-            AimingDelay = delay
+            AimingDelay = aimingDelay
         };
     }
 
+    /// <summary>
+    /// Выбрасывает исключение, если значения не попадает в заданный отрезок.
+    /// </summary>
+    /// <param name="parameter">Проверяемое значение</param>
+    /// <param name="min">Нижняя граница</param>
+    /// <param name="max">Верхняя граница</param>
+    /// <exception cref="ArgumentOutOfRangeException"></exception>
     private static void ThrowIfOutOfRange(int parameter, int min, int max)
     {
         if (parameter < min || parameter > max)
@@ -358,6 +373,13 @@ internal sealed class Target
 /// </summary>
 internal static class RandomExtensions
 {
+    /// <summary>
+    /// Создает случайное число в полуинтервале от minValue до maxValue
+    /// </summary>
+    /// <param name="random">Random</param>
+    /// <param name="minValue">Нижняя граница</param>
+    /// <param name="maxValue">Верхняя граница</param>
+    /// <returns>Случайное число</returns>
     public static double NextDouble(this Random random, int minValue, int maxValue)
     {
         return random.NextDouble() * (maxValue - minValue) + minValue;
