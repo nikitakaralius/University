@@ -15,6 +15,11 @@ public sealed class Score : IScore
 
     public int Total { get; private set; }
 
+    /// <summary>
+    /// Считает очки при попадании и добавляет к общему счету.
+    /// </summary>
+    /// <param name="target">Мишень.</param>
+    /// <param name="hit">Точка на мишени, куда попал игрок.</param>
     public void Append(Target target, Point hit)
     {
         int score = CalculateScore(target, hit);

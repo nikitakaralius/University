@@ -1,5 +1,3 @@
-using System;
-
 namespace TargetGame.Cli.Utils;
 
 /// <summary>

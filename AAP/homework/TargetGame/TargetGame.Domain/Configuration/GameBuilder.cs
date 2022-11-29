@@ -1,5 +1,5 @@
+using TargetGame.Domain.Controls;
 using TargetGame.Domain.Gameplay;
-using TargetGame.Domain.Input;
 using TargetGame.Domain.ValueObjects;
 
 namespace TargetGame.Domain.Configuration;
@@ -12,8 +12,17 @@ public sealed class GameBuilder
 
     public IUserInput? Input { get; private set; }
 
+    /// <summary>
+    /// Создает новый экземпляр GameBuilder
+    /// </summary>
+    /// <returns></returns>
     public static GameBuilder Create() => new();
 
+    /// <summary>
+    /// Собирает игру, используя заранее заданные параметры.
+    /// </summary>
+    /// <returns>Собранная игра.</returns>
+    /// <exception cref="InvalidOperationException"></exception>
     public Game Build()
     {
         if (Validate() == false)
@@ -35,24 +44,43 @@ public sealed class GameBuilder
         return new Game(target, score, player, Input!);
     }
 
+    /// <summary>
+    /// Конфигурирует настройки игры.
+    /// </summary>
+    /// <param name="configure"></param>
+    /// <returns>Тот же экземпляр GameBuilder</returns>
     public GameBuilder UseSettings(Func<GameBuilder, GameSettings> configure)
     {
         Settings = configure(this);
         return this;
     }
 
+    /// <summary>
+    /// Добавляет пользовательский ввод.
+    /// </summary>
+    /// <param name="configure"></param>
+    /// <returns>Тот же экземпляр GameBuilder</returns>
     public GameBuilder UseInput(Func<GameBuilder, IUserInput> configure)
     {
         Input = configure(this);
         return this;
     }
 
+    /// <summary>
+    /// Добавляет оружие в игру.
+    /// </summary>
+    /// <param name="configure"></param>
+    /// <returns>Тот же экземпляр GameBuilder</returns>
     public GameBuilder UseWeapon(Func<GameBuilder, IWeapon> configure)
     {
         Weapon = configure(this);
         return this;
     }
 
+    /// <summary>
+    /// Проверяет валидность состояния GameBuider.
+    /// </summary>
+    /// <returns>Валидность состояния.</returns>
     private bool Validate() =>
         Settings is not null &&
         Input is not null &&

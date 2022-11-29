@@ -1,7 +1,10 @@
-namespace TargetGame.Domain.Input;
+namespace TargetGame.Domain.Controls;
 
 public interface IUserInput
 {
+    /// <summary>
+    /// </summary>
+    /// <returns>Перестал ли прицеливаться игрок</returns>
     bool StopAiming();
 
     /// <summary>

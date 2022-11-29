@@ -21,6 +21,10 @@ internal class Program
         game.Terminate();
     }
 
+    /// <summary>
+    /// Делает подписки на события игры
+    /// </summary>
+    /// <param name="game"></param>
     private static void SubscribeToEvents(Game game)
     {
         game.OnUpdate += Console.Clear;

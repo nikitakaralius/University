@@ -1,5 +1,5 @@
+using TargetGame.Domain.Controls;
 using TargetGame.Domain.Gameplay;
-using TargetGame.Domain.Input;
 using TargetGame.Domain.ValueObjects;
 
 namespace TargetGame.Domain;
@@ -63,5 +63,9 @@ public sealed class Game
         OnTerminate?.Invoke();
     }
 
+    /// <summary>
+    /// Подписка на изменение очков игрока при выстреле в мишень
+    /// </summary>
+    /// <param name="hit"></param>
     private void OnPlayerShot(Point hit) => _score.Append(_target, hit);
 }
