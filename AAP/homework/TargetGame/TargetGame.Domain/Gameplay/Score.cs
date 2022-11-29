@@ -1,6 +1,6 @@
-using System;
+using TargetGame.Domain.ValueObjects;
 
-namespace TargetGame.Domain;
+namespace TargetGame.Domain.Gameplay;
 
 public interface IScore
 {

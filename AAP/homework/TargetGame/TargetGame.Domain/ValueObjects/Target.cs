@@ -1,4 +1,4 @@
-namespace TargetGame.Domain;
+namespace TargetGame.Domain.ValueObjects;
 
 /// <summary>
 /// Мишень.

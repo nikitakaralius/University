@@ -1,9 +1,9 @@
-using System;
-using System.Threading.Tasks;
-using TargetGame.Cli;
-using TargetGame.Domain;
+using TargetGame.Cli.Utils;
+using TargetGame.Domain.Gameplay;
+using TargetGame.Domain.Input;
+using TargetGame.Domain.ValueObjects;
 
-namespace TargetGame.Cli;
+namespace TargetGame.Cli.Gameplay;
 
 internal sealed class ConsoleWeapon : IWeapon
 {

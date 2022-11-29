@@ -1,7 +1,7 @@
-using System;
-using TargetGame.Domain;
+using TargetGame.Cli.Utils;
+using TargetGame.Domain.Configuration;
 
-namespace TargetGame.Cli;
+namespace TargetGame.Cli.Configuration;
 
 internal static class ConsoleConfiguration
 {

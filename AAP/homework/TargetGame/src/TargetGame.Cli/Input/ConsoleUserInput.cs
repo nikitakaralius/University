@@ -1,8 +1,8 @@
-using System;
-using TargetGame.Domain;
+using TargetGame.Cli.Utils;
+using TargetGame.Domain.Input;
 using static System.ConsoleColor;
 
-namespace TargetGame.Cli;
+namespace TargetGame.Cli.Input;
 
 internal sealed class ConsoleUserInput : IUserInput
 {

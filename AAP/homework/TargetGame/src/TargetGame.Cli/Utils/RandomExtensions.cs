@@ -1,6 +1,6 @@
 using System;
 
-namespace TargetGame.Cli;
+namespace TargetGame.Cli.Utils;
 
 /// <summary>
 /// Методы расширения для класса Random.

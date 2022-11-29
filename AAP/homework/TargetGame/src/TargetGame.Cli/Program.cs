@@ -1,7 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
-using TargetGame.Cli;
+﻿using TargetGame.Cli.Configuration;
+using TargetGame.Cli.Gameplay;
+using TargetGame.Cli.Input;
 using TargetGame.Domain;
+using TargetGame.Domain.Configuration;
 
 internal class Program
 {

@@ -1,4 +1,4 @@
-namespace TargetGame.Domain;
+namespace TargetGame.Domain.Input;
 
 public interface IUserInput
 {

@@ -1,6 +1,8 @@
-using System;
+using TargetGame.Domain.Gameplay;
+using TargetGame.Domain.Input;
+using TargetGame.Domain.ValueObjects;
 
-namespace TargetGame.Domain;
+namespace TargetGame.Domain.Configuration;
 
 public sealed class GameBuilder
 {

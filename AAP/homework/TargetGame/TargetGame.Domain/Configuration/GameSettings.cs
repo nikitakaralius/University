@@ -1,6 +1,4 @@
-using System;
-
-namespace TargetGame.Domain;
+namespace TargetGame.Domain.Configuration;
 
 /// <summary>
 /// Настройки игры.

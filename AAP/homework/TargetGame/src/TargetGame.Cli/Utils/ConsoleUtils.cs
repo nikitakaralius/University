@@ -1,7 +1,4 @@
-using System;
-using System.Threading;
-
-namespace TargetGame.Cli;
+namespace TargetGame.Cli.Utils;
 
 internal static class ConsoleUtils
 {
