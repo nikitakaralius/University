@@ -49,8 +49,8 @@ internal class Program
             _totalScore += score;
             DisplayScore(_totalScore, score);
 
-            bool wantToContinue = AskForContinuation();
-            if (wantToContinue == false) break;
+            bool wantsToContinue = AskForContinuation();
+            if (wantsToContinue == false) break;
 
             Console.Clear();
         }
