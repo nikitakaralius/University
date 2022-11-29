@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using TargetGame.ConsoleGame;
+using TargetGame.Cli;
 using TargetGame.Domain;
 
 internal class Program

@@ -1,11 +1,12 @@
 using System;
 using System.Threading;
 
-namespace TargetGame.ConsoleGame;
+namespace TargetGame.Cli;
 
 internal static class ConsoleUtils
 {
     private const ConsoleColor DefaultColor = (ConsoleColor) (-1);
+    public const int ErrorMessageDelay = 1500;
 
     /// <summary>
     /// Выводит сообщение на консоль с переносом строки.
@@ -36,6 +37,4 @@ internal static class ConsoleUtils
         if (time == 0) return;
         Thread.Sleep(time);
     }
-
-    public const int ErrorMessageDelay = 1500;
 }

@@ -2,7 +2,7 @@ using System;
 using TargetGame.Domain;
 using static System.ConsoleColor;
 
-namespace TargetGame.ConsoleGame;
+namespace TargetGame.Cli;
 
 internal sealed class ConsoleUserInput : IUserInput
 {

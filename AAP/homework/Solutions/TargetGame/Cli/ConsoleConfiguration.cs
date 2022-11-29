@@ -1,7 +1,7 @@
 using System;
 using TargetGame.Domain;
 
-namespace TargetGame.ConsoleGame;
+namespace TargetGame.Cli;
 
 internal static class ConsoleConfiguration
 {
@@ -36,7 +36,7 @@ internal static class ConsoleConfiguration
     /// Считывает параметры игрока с клавиатуры.
     /// </summary>
     /// <returns>Пользовательские параметры.</returns>
-    public static GameSettings ReadGameSettings()
+    private static GameSettings ReadGameSettings()
     {
         try
         {

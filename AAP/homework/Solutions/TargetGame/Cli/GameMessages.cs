@@ -1,7 +1,8 @@
 using System;
+using TargetGame.Cli;
 using TargetGame.Domain;
 
-namespace TargetGame.ConsoleGame;
+namespace TargetGame.Cli;
 
 internal sealed class GameMessages
 {
