@@ -1,5 +1,3 @@
-using TargetGame.Domain.Data;
-
 namespace TargetGame.Domain.Gameplay;
 
 public sealed class Player

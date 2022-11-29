@@ -1,6 +1,3 @@
-using TargetGame.Cli.Utils;
-using TargetGame.Domain.Configuration;
-
 namespace TargetGame.Cli.Configuration;
 
 internal static class ConsoleConfiguration

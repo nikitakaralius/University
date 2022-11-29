@@ -1,10 +1,4 @@
-﻿using TargetGame.Cli.Configuration;
-using TargetGame.Cli.Gameplay;
-using TargetGame.Cli.Input;
-using TargetGame.Domain;
-using TargetGame.Domain.Configuration;
-
-internal class Program
+﻿internal class Program
 {
     public static async Task Main(string[] args)
     {

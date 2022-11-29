@@ -1,7 +1,3 @@
-using TargetGame.Domain.Controls;
-using TargetGame.Domain.Data;
-using TargetGame.Domain.Gameplay;
-
 namespace TargetGame.Domain;
 
 public sealed class Game

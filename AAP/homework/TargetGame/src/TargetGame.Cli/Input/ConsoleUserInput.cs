@@ -1,5 +1,3 @@
-using TargetGame.Cli.Utils;
-using TargetGame.Domain.Controls;
 using static System.ConsoleColor;
 
 namespace TargetGame.Cli.Input;
