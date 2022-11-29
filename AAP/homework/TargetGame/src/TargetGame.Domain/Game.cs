@@ -1,6 +1,6 @@
 using TargetGame.Domain.Controls;
+using TargetGame.Domain.Data;
 using TargetGame.Domain.Gameplay;
-using TargetGame.Domain.ValueObjects;
 
 namespace TargetGame.Domain;
 

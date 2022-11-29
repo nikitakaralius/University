@@ -1,4 +1,4 @@
-using TargetGame.Domain.ValueObjects;
+using TargetGame.Domain.Data;
 
 namespace TargetGame.Domain.Gameplay;
 

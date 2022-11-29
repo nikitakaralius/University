@@ -1,4 +1,4 @@
-namespace TargetGame.Domain.ValueObjects;
+namespace TargetGame.Domain.Data;
 
 /// <summary>
 /// Точка в декартовой системе координат.
