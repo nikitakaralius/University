@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointInTriangle", "PointInTriangle\PointInTriangle.csproj", "{F6F0FDB7-79B4-402E-A337-11CDB2674CB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileList", "FileList\FileList.csproj", "{11BC543B-1B79-479D-97AA-6A6009E81CDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{F6F0FDB7-79B4-402E-A337-11CDB2674CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F0FDB7-79B4-402E-A337-11CDB2674CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F0FDB7-79B4-402E-A337-11CDB2674CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BC543B-1B79-479D-97AA-6A6009E81CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BC543B-1B79-479D-97AA-6A6009E81CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BC543B-1B79-479D-97AA-6A6009E81CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BC543B-1B79-479D-97AA-6A6009E81CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
