@@ -40,6 +40,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProcessing", "ArrayPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangles", "Rectangles\Rectangles.csproj", "{92816167-B4D5-4063-8FAE-24F6D7F9E2CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureDefenitions", "StructureDefenitions\StructureDefenitions.csproj", "{2DFD3E75-7F96-4642-908A-1BDB066681E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArraySort", "JaggedArraySort\JaggedArraySort.csproj", "{5D11FC0F-2A48-4770-B3BC-E46575691BF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +130,13 @@ Global
 		{92816167-B4D5-4063-8FAE-24F6D7F9E2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92816167-B4D5-4063-8FAE-24F6D7F9E2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92816167-B4D5-4063-8FAE-24F6D7F9E2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFD3E75-7F96-4642-908A-1BDB066681E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFD3E75-7F96-4642-908A-1BDB066681E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFD3E75-7F96-4642-908A-1BDB066681E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFD3E75-7F96-4642-908A-1BDB066681E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D11FC0F-2A48-4770-B3BC-E46575691BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D11FC0F-2A48-4770-B3BC-E46575691BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D11FC0F-2A48-4770-B3BC-E46575691BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D11FC0F-2A48-4770-B3BC-E46575691BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
